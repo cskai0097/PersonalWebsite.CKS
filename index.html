@@ -9,22 +9,36 @@
 
 <body>
     <header>
-        <div class="banner">
-            <img src="images/banner-image.jpg" alt=""Banner Image">
-            <h1>Christopher Sychampanakorn</h1>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="socials.html">Socials</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Hello! I am a web devoper based in California. I speciaized in Web Development. feel free to get in touch with me to discuss your web development needs.</p>
-    </section>
+        
+            <div class="banner">
+                <img src="images/banner-image.jpg" alt=""Banner Image">
+                <h1>Christopher Sychampanakorn</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="socials.html">Socials</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Hello! I am a web devoper based in California. I speciaized in Web Development. feel free to get in touch with me to discuss your web development needs.</p>
+            </section>
+            <section>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" cols="30" rows="5"></textarea><br><br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <input type="submit" value="Send">
+                </form>
+            </section>
+    </main>
 </body>
 </html>
